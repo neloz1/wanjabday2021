@@ -1,0 +1,218 @@
+*{
+	padding: 0;
+	margin: 0;
+	max-width: 768px;
+	box-sizing: border-box;
+	display: fixed;
+}
+@media only screen and (min-width: 480px) {
+  
+body{
+	background-color: maroon, rgb(red, green, blue) ;
+  max-width: 100%;
+	max-height: auto;
+	box-sizing: content-box;
+}
+}
+body{
+	background-color: maroon;
+  max-width:1200px;
+	height: auto;
+	box-sizing: border-box;
+}
+.balloon h3 {
+	text-transform: uppercase;
+	font-family: 'Signika';
+	font-size: 30px;
+	color: black;
+	text-shadow: 2px 2px 2px #FFF;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	text-align: center;
+}
+
+.balloon{
+	height: 60px;
+	width: 55px;
+	background-color: crimson;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	border-radius: 50%;
+    animation: move 1s ease-in infinite;
+}
+.balloon:before{
+	content: "";
+	height: 60px;
+	width: 6px;
+	position: absolute;
+	background-color: white;
+	top: 94%;
+left: 40%;
+border-radius: 30%;
+}
+@keyframes move{
+	0%{
+		top: 100%;
+	}
+	100%{
+		top: 0%;
+	}
+}
+.balloon:nth-child(2){
+	left: 10%;
+	top: 40%;
+	background-color: magenta;
+	animation-duration: 4.1s;
+}
+.balloon:nth-child(3){
+	left: 20%;
+	top: 30%;
+	background-color: lightpink;
+	animation-duration: 4.3s;
+}
+
+.balloon:nth-child(4){
+	left: 30%;
+	top: 40%;
+	background-color: skyblue;
+	animation-duration: 4.5s;
+}
+
+.balloon:nth-child(5){
+	left: 40%;
+	top: 40%;
+	background-color: rebeccapurple;
+	animation-duration: 4.7s;
+}
+
+.balloon:nth-child(6){
+	left: 50%;
+	top: 40%;
+	background-color: orange;
+	animation-duration: 4.9s;
+}
+.balloon:nth-child(7){
+	left: 60%;
+	top: 40%;
+	background-color: yellow;
+	animation-duration: 5s;
+}
+
+.balloon:nth-child(8){
+	left: 70%;
+	top: 40%;
+	background-color: blue;
+	animation-duration: 5.3s;
+}
+.balloon:nth-child(9){
+	left: 80%;
+	top: 40%;
+	background-color: greenyellow;
+	animation-duration: 5.5s;
+}
+/*repeating multiple*/
+.balloon:nth-child(10){
+	left: 10%;
+	top: 40%;
+	background-color: yellow;
+	animation-duration: 6s;
+}
+.balloon:nth-child(11){
+	left: 20%;
+	top: 40%;
+	background-color: greenyellow;
+	animation-duration: 7s;
+}
+.balloon:nth-child(12){
+	left: 30%;
+	top: 40%;
+	background-color: salmon;
+	animation-duration: 8s;
+}
+.balloon:nth-child(13){
+	left: 40%;
+	top: 40%;
+	background-color: orange;
+	animation-duration: 9s;
+}
+.balloon:nth-child(14){
+	left: 50%;
+	top: 40%;
+	background-color: rebeccapurple;
+	animation-duration: 10s;
+}
+.balloon:nth-child(15){
+	left: 60%;
+	top: 40%;
+	background-color: violet;
+	animation-duration: 6.5s;
+}
+.balloon:nth-child(16){
+	left: 70%;
+	top: 40%;
+	background-color: lightpink;
+	animation-duration: 7.5s;
+}
+.balloon:nth-child(17){
+	left: 80%;
+	top: 40%;
+	background-color: brown;
+	animation-duration: 8.5s;
+}
+
+h2{
+  background-image: none;
+	font-size: 27px;
+	color: white;
+	position: absolute;
+	top: 28%;
+	left: 42%;
+	font-family: fantasy;
+	transform: translate(-30%,-50%);
+  box-sizing: border-box;
+  }
+
+p2{
+  background-image: none;
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	top: 48%;
+	left: 40%;
+	font-family: cursive;
+	transform: translate(-30%,-50%);
+  box-sizing: border-box;
+}
+img{
+  width:100%;
+}
+
+
+
+footer{
+  float: center;
+  width: 100%;
+  height: 30px;
+  text-justify: center;
+  font-family: fantasy;
+  color: wheat;
+  position: absolute;
+  top:99%;
+  word-spacing: 2px;
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
